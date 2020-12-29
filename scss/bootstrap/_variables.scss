@@ -275,7 +275,7 @@ $h2-font-size:                $font-size-base * 2 !default;
 $h3-font-size:                $font-size-base * 1.75 !default;
 $h4-font-size:                $font-size-base * 1.5 !default;
 $h5-font-size:                $font-size-base * 1.25 !default;
-$h6-font-size:                $font-size-base !default;
+$h6-font-size:                $font-size-base * 0.5 !default;
 
 $headings-margin-bottom:      ($spacer / 2) !default;
 $headings-font-family:        inherit !default;
@@ -461,7 +461,7 @@ $input-transition:                      border-color .15s ease-in-out, box-shado
 
 $form-text-margin-top:                  .25rem !default;
 
-$form-check-input-gutter:               1.25rem !default;
+$form-check-input-gutter:               1.1rem !default;
 $form-check-input-margin-y:             .3rem !default;
 $form-check-input-margin-x:             .25rem !default;
 
