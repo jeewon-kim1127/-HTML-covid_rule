@@ -98,7 +98,7 @@ a {
   font-size: 2.5rem; }
   @media (min-width: 768px) {
     .site-section-heading {
-      font-size: 4rem; } }
+      font-size: 3rem; } }
   .site-section-heading:after {
     content: "";
     left: 0%;
@@ -140,7 +140,7 @@ a {
   .site-footer ul li {
     margin-bottom: 10px; }
   .site-footer .footer-heading {
-    font-size: 20px;
+    font-size: 5px;
     color: #fff; }
 
 .bg-text-line {
@@ -241,7 +241,7 @@ a {
       color: #20c997; }
     .site-navbar .site-navigation .site-menu a {
       text-decoration: none !important;
-      font-size: 20px;
+      font-size: 16px;
       display: inline-block; }
     .site-navbar .site-navigation .site-menu > li {
       display: inline-block;
@@ -251,7 +251,7 @@ a {
         text-transform: uppercase;
         letter-spacing: .1em;
         color: rgba(255, 255, 255, 0.5);
-        font-size: 16px;
+        font-size: 18px;
         text-decoration: none !important; }
         .site-navbar .site-navigation .site-menu > li > a:hover {
           color: #20c997; }
