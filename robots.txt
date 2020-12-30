@@ -1,0 +1,3 @@
+User-agent: *
+Allow:/
+Sitemap: https://covidguide.netlify.app/sitemap.xml
