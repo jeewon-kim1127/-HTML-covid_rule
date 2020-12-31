@@ -6,19 +6,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Poor+Story&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap" rel="stylesheet">
   <style>
-	  header{
-		  font-family: 'Poor Story', cursive;
+	  h2{
+		  font-family: 'Do Hyeon', sans-serif;
 	  }
-	  nav{
-		  font-family: 'Poor Story', cursive;
-	  }
+	  
 	  p{
-		  font-family: 'Poor Story', cursive;
+		  font-family: 'Do Hyeon', sans-serif;
 	  }
 	  div{
-		  font-family: 'Poor Story', cursive;
+		  font-family: 'Do Hyeon', sans-serif;
 	  }
 	 
 	</style>
@@ -42,6 +40,10 @@
 
   <link rel="stylesheet" href="css/style.css">
 
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+	
+	
 </head>
 <body>
 
@@ -55,8 +57,6 @@
       </div>
       <div class="site-mobile-menu-body"></div>
     </div>
-    
-
 
 
     <header class="site-navbar py-3" role="banner">
@@ -64,71 +64,53 @@
       <div class="container-fluid">
         <div class="row align-items-center">
 
-          <div class="col-10" data-aos="fade-down">
-            <h1 class="mb-0"><a href="index.html" class="text-white h2 mb-0">코로나 방역수칙</a></h1>
+           <div class="col-10 col-xl-2" data-aos="fade-down">
+            <a href="#" onClick="javascript:history.go(-1); return false;" class="text-white h2 mb-0" style="padding-left: 0.3rem" >코로나 방역지침서</a>
           </div>
           <div class="col-10 col-md-8 d-none d-xl-block" data-aos="fade-down">
             <nav class="site-navigation position-relative text-right text-lg-center" role="navigation">
 
               <ul class="site-menu js-clone-nav mx-auto d-none d-lg-block">
-                <li><a href="index.html">Home</a></li>
-                <li class="has-children">
-                  <a href="single.html">지역선택</a>
+				  <li><a href="index.html">Home</a></li>
+                <li class="has-children active">
+                  <a href="#">지역선택</a>
                   <ul class="dropdown">
                     <li class="has-children">
                       <a href="#">수도권</a>
                       <ul class="dropdown">
-                        <li><a href="#">서울</a></li>
-                        <li><a href="#">인천</a></li>
-                        <li><a href="#">경기</a></li>
-                      </ul>
+                        <li><a href="district/Seoul.html">서울</a></li>
+                        <li><a href="district/Incheon.html">인천</a></li>
+                        <li><a href="district/Gyeonggi.html">경기</a></li>
+					 </ul>
                     </li>
                     <li class="has-children">
                       <a href="#"> 비수도권</a>
                       <ul class="dropdown">
-                        <li><a href="#">부산</a></li>
-                          <li><a href="#">대구</a></li>
-                          <li><a href="#">광주</a></li>
-                          <li><a href="#">대전</a></li>
-                          <li><a href="#">울산</a></li>
-                          <li><a href="#">세종</a></li>
-                          <li><a href="#">강원</a></li>
-                          <li><a href="#">충북</a></li>
-                          <li><a href="#">충남</a></li>
-                          <li><a href="#">전북</a></li>
-                          <li><a href="#">전남</a></li>
-                          <li><a href="#">경북</a></li>
-                          <li><a href="#">경남</a></li>
-                          <li><a href="#">제주</a></li>
-                      </ul>
+                        <li><a href="district/Busan.html">부산</a></li>
+                        <li><a href="district/Daegu.html">대구</a></li>
+                        <li><a href="district/Gwangju.html">광주</a></li>
+                        <li><a href="district/Daejeon.html">대전</a></li>
+                        <li><a href="district/Ulsan.html">울산</a></li>
+                        <li><a href="district/Sejong.html">세종</a></li>
+                        <li><a href="district/Kangwon.html">강원</a></li>
+                        <li><a href="district/Chungbuk.html">충북</a></li>
+                        <li><a href="district/Chungnam.html">충남</a></li>
+                        <li><a href="district/Jeonbuk.html">전북</a></li>
+                        <li><a href="district/Jeonnam.html">전남</a></li>
+                        <li><a href="district/Gyeongbuk.html">경북</a></li>
+                        <li><a href="district/Gyeongnam.html">경남</a></li>
+                        <li><a href="district/Jeju.html">제주</a></li>
+                       </ul>
                     </li>
                   </ul>
                 </li>
-                <li><a href="../services.html">수칙위반 신고</a></li>
-                <li><a href="contact.html">피드백</a></li>
-                <li><a href="about.html">About</a></li>
+                <li><a href="services_2.html">수칙위반 신고</a></li>
               </ul>
             </nav>
           </div>
 
           <div class="col-2 text-right" data-aos="fade-down">
-            <div class="d-none d-xl-inline-block">
-              <ul class="site-menu js-clone-nav ml-auto list-unstyled d-flex text-right mb-0" data-class="social">
-                <li>
-                  <a href="#" class="pl-0 pr-3"><span class="icon-facebook"></span></a>
-                </li>
-                <li>
-                  <a href="#" class="pl-3 pr-3"><span class="icon-twitter"></span></a>
-                </li>
-                <li>
-                  <a href="#" class="pl-3 pr-3"><span class="icon-instagram"></span></a>
-                </li>
-                <li>
-                  <a href="#" class="pl-3 pr-3"><span class="icon-youtube-play"></span></a>
-                </li>
-              </ul>
-            </div>
-
+            
             <div class="d-inline-block d-xl-none ml-md-0 mr-auto py-3" style="position: relative; top: 3px;"><a href="#" class="site-menu-toggle js-menu-toggle text-white"><span class="icon-menu h3"></span></a></div>
 
           </div>
@@ -144,52 +126,63 @@
       <div class="container-fluid">
 
         <div class="row justify-content-center">
-
-          <div class="col-md-7">
-            <div class="row mb-5">
               <div class="col-12 ">
-                <br>
+                <h2 class="site-section-heading text-center">
+					ABOUT this site
+				  </h2>
               </div>
-            </div>
-          </div>
-
         </div>
-        
-        <div class="row mb-5">
-          <div class="col-md-7">
-            <img src="images/img_2.jpg" alt="Images" class="img-fluid">
+		
+        <div class="row justify-content-center">
+		  <div class="col-md-3 text-center ">
+			</div>
+          <div class="col-md-3 text-center ">
+            <img src="cozy_logo_full (1).jpg" alt="logo" class="img-fluid" width="200" height="160">
           </div>
-          <div class="col-md-4 ml-auto">
-            <h3 class="text-white">이 사이트는</h3>
-            <p>민간인이 운영하는 비공식 사이트이며<br> 방역수칙과 관련된 정보는<br>보건복지부 블로그에서 가져오고 있습니다.</p>
+          <div class="col-md-6 ml-auto">
+            <h3 class="text-white" style="padding-left: 1.5rem">이 사이트는</h3>
+            <p style="padding-left: 1.5rem">민간인이 운영하는 비공식 사이트이며<br> 방역수칙과 관련된 정보는<br>보건복지부 블로그에서 가져오고 있습니다.<br><br></p>
+			  
+			 <h3 class="text-white" style="padding-left: 1.5rem">Promise bird는</h3>
+            <p style="padding-left: 1.5rem">손가락 약속의 손을 본딴 로고입니다.<br>모두가 방역수칙을 준수해서<br>코로나가 없는 세상이 돌아왔으면 합니다.</p>
           </div>
         </div>
 
-
-        <div class="row site-section">
-          <div class="col-md-6 col-lg-6 col-xl-4 text-center mb-5">
+        <div class="row justify-content-center">
+          <div class="row">
             
-            <p><br></p> 
+			  <form class="gform" method="post" data-email="ddarong2000@gmail.com" 
+            action="https://script.google.com/macros/s/AKfycbzWr7ENya2vtkYLzjOnGbbjwzuZ-xeAcla47vwv/exec">
+				<p class="text-white"><br>피드백</p>
+				  <p>제작자 김지원</p>
+				<div class="row align-items-center">
+					<div class="col-5">
+						<p class="mb-0 text-white" style="float:left">Name</p>
+				  <input type="text-white" name="name" class="form-control" placeholder="성명">
+					</div>
+					<div class="col-7">
+						<p class="mb-0 text-white" style="float:left">Your email</p>
+				  <input type="text-white" name="email address"  class="form-control" placeholder="답변을 원하시면 이메일 주소를 남겨주세요">
+					</div>
+				</div>
+        
+				  <p class="mb-0 text-white"><br>Message</p>
+				  <input type="text-white" name="message" class="form-control" placeholder="피드백이나 문의사항을 남겨주세요"><br>
+				  <input type="submit" value="Send" class="btn btn-primary py-2 px-4 text-white " style="float: right">
+			  </form>
           </div>
-          <div class="col-md-6 col-lg-6 col-xl-4 text-center mb-5">
-            <img src="images/person_2.jpg" alt="Image" class="img-fluid w-50 rounded-circle mb-4">
-            <h2 class="text-white font-weight-light mb-4">김지원</h2>
-            <p class="mb-4">카이스트 공돌이</p>
-            <p>
-              <a href="#" class="pl-3 pr-3"><span class="icon-instagram"></span></a>
-              <a href="#" class="pl-3 pr-3"><span class="icon-facebook"></span></a>
-            </p>
-          </div>
-          <div class="col-md-6 col-lg-6 col-xl-4 text-center mb-5">
-            <p><br></p>
-          </div>
-        </div>
+		  </div>
+		  
+    
       </div>
     </div>
 
-    <div class="footer py-4">
+ 
+
+     <div class="footer py-4">
       <div class="container-fluid text-center">
-        <p>
+        <p style="font-size: 0.6rem">
+			제작자 Jeewon Kim | E-mail ddarong2000@gmail.com<br>
           <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
           Copyright &copy;<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" >Colorlib</a>
           <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
