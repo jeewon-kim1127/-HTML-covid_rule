@@ -1173,10 +1173,9 @@ a {
     -webkit-filter: grayscale(0);
     -webkit-transform: scale(1.01); }
   .image-wrap-2 .image-info {
-    text-align: center;
     position: absolute;
     top: 50%;
-    left: 50%;
+	left: 50%;
     z-index: 2;
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -1186,6 +1185,52 @@ a {
   .image-wrap-2:hover:before {
     background: rgba(0, 0, 0, 0.4);
     content: ""; }
+
+  .image-wrap-2 input[id*="rule"] {
+	display: none;
+}
+  .image-wrap-2 input[id*="rule"] + label {
+	display: block;
+	padding: 20px;
+	border: 1px solid #fff;
+	text-align: center;
+	color:#fff;
+	font-weight:900;
+	background: url("../images/img_1.jpg");
+	background-size:100%;
+	cursor: pointer;
+	position: relative;
+}
+  .image-wrap-2 input[id*="rule"] + label em {
+	position: absolute;
+	top: 50%;
+	right: 10px;
+	width: 30px;
+	height: 30px;
+	margin-top:-15px;
+	display: inline-block;
+	background:url('logo_circle.png') 0 0 no-repeat;
+	background-size:100%;
+}
+  .image-wrap-2 input[id*="rule"] + label + div {
+	  position: relative;
+	max-height: 0;
+	width: 300px;
+	transition: all .2s;
+	overflow: hidden;
+	background: #ebf8ff;
+	font-size:10px;
+}
+  .image-wrap-2 input[id*="rule"] + label + div p {
+	display: inline-block;
+	padding: 10px;
+}
+  .image-wrap-2 input[id*="rule"]:checked + label + div {
+	max-height: 1000px;
+}
+  .image-wrap-2 input[id*="rule"]:checked + label em {
+	background-position: 0 -30px;
+}
 
 .swiper-button-prev,
 .swiper-container-rtl .swiper-button-next {
@@ -1245,3 +1290,134 @@ img {
     filter: none;
     -webkit-filter: grayscale(0);
     -webkit-transform: scale(1.01); }
+
+
+  input[id*="rule"] {
+	display: none;
+}
+   input[id="rule01"] + label {
+	background: url("../images/img_1.jpg");
+	background-size:100%;
+	background-position: 0 -30px;
+	   padding: 40px;
+	
+}
+   input[id="rule02"] + label {
+	background: url("../images/img_2.jpg");
+	background-size:100%;
+	background-position: 0 -10px;
+	   padding: 40px;
+}
+    input[id="rule03"] + label {
+	background: url("../images/img_3.jpg");
+	background-size:100%;
+	background-position: 0 -30px;
+		padding: 40px;
+}
+input[id="rule04"] + label {
+	background: url("../images/img_4.jpg");
+	background-size:100%;
+	background-position: 0 -10px;
+	padding: 40px;
+}
+input[id="rule05"] + label {
+	background: url("../images/img_5.jpg");
+	background-size:100%;
+	background-position: 0 -30px;
+	padding: 40px;
+}
+input[id="rule06"] + label {
+	background: url("../images/img_6.jpg");
+	background-size:100%;
+	background-position: 0 -20px;
+	padding: 20px;
+}
+input[id="rule07"] + label {
+	background: url("../images/img_7.jpg");
+	background-size:100%;
+	background-position: 0 -10px;
+	padding: 40px;
+}
+input[id="rule08"] + label {
+	background: url("../images/img_8.jpg");
+	background-size:100%;
+	background-position: 0 -30px;
+	padding: 40px;
+}
+input[id="rule09"] + label {
+	background: url("../images/img_9.jpg");
+	background-size:100%;
+	background-position: 0 -30px;
+	padding: 40px;
+}
+
+label{
+	display: block;
+	
+	border: hidden;
+	text-align: center;
+	color:#fff;
+	font-weight:900;
+	margin-bottom: 10px;
+	margin-left:10px;
+	margin-right:10px;
+	cursor: pointer;
+	position: relative;
+	
+  /* filter: url(filters.svg#grayscale); Firefox 3.5+ */
+  -webkit-filter: grayscale(1);
+  /* IE5+ */
+  /*-webkit-filter: grayscale(1);*/
+  /* Webkit Nightlies & Chrome Canary */
+  -webkit-transition: all .1s ease-in-out; 
+}
+ label:hover{
+    filter: none;
+    -webkit-filter: grayscale(0);
+    -webkit-transform: scale(1.01); }
+
+
+  input[id*="rule"] + label em {
+	position: absolute;
+	top: 50%;
+	right: 10px;
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	background:url('down-arrow.png') 0 0 no-repeat;
+	background-size:100%;
+}
+
+
+  input[id*="rule"] + label + div {
+	position: relative;
+	max-height: 0;
+	margin-bottom: 10px;
+	margin-left:10px;
+	margin-right:10px;
+	transition: all .2s;
+	overflow: hidden;
+	background: none;
+	font-size:10px;
+}
+  input[id*="rule"] + label + div p {
+	display: inline-block;
+	padding: 20px;
+}
+
+input[id*="rule"]:checked + label{
+-webkit-filter: grayscale(0);
+}
+  input[id*="rule"]:checked + label + div {
+	max-height: 1000px;
+}
+ input[id*="rule"]:checked + label em {
+	position: absolute;
+	top: 50%;
+	right: 10px;
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	background:url('up-arrow.png') 0 0 no-repeat;
+	background-size:100%;
+}
