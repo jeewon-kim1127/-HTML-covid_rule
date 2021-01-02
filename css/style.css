@@ -1,7 +1,7 @@
 /* Base */
 body {
   line-height: 1.7;
-  color: #777;
+  color: #d0d0d0;
   font-weight: 300;
   font-size: 1.5rem;
   background: #000; }
@@ -250,7 +250,7 @@ a {
         padding: 10px 10px;
         text-transform: uppercase;
         letter-spacing: .1em;
-        color: rgba(255, 255, 255, 0.5);
+        color: #d0d0d0;
         font-size: 18px;
         text-decoration: none !important; }
         .site-navbar .site-navigation .site-menu > li > a:hover {
@@ -442,6 +442,7 @@ a {
       cursor: pointer;
       border-radius: 50%; }
       .site-mobile-menu .site-nav-wrap .arrow-collapse:hover {
+		  color: #20c997;
         background: #f8f9fa; }
       .site-mobile-menu .site-nav-wrap .arrow-collapse:before {
         font-size: 12px;
@@ -714,7 +715,7 @@ a {
       -o-transition: .3s all ease-in-out;
       transition: .3s all ease-in-out; }
     .feature-blocks-1 .feature-block-1 p {
-      color: #cccccc; }
+      color: #eaeaea; }
     .feature-blocks-1 .feature-block-1:hover, .feature-blocks-1 .feature-block-1:focus, .feature-blocks-1 .feature-block-1:active {
       top: -10px;
       -webkit-box-shadow: 0 10px 40px -5px rgba(0, 0, 0, 0.4);
@@ -1075,7 +1076,7 @@ a {
 .site-block-feature-7 {
   background: #262626; }
   .site-block-feature-7 p {
-    color: #777; }
+    color: #d0d0d0; }
   .site-block-feature-7 .icon {
     -webkit-transition: .2s all ease-in-out;
     -o-transition: .2s all ease-in-out;
@@ -1142,6 +1143,32 @@ a {
   .btn-outline-white:hover {
     background: #fff;
     color: #000; }
+
+.btn-outline-white {
+  border-color: #fff;
+  color: #fff;
+  border-width: 2px;
+  text-transform: uppercase;
+  font-size: 15px;
+  letter-spacing: .1em; }
+  .btn-outline-white:hover {
+    background: #fff;
+    color: #000; }
+
+.btn-outline-gray {
+  border-color: #a2a2a2;
+  color: #b9b9b9;
+  border-width: 2px;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  
+  cursor: pointer;
+}
+
+  .btn-outline-gray:hover {
+	border-color: #000;
+    background: #20c997;
+    color: #fff; }
 
 .image-wrap-2 {
   display: block;
