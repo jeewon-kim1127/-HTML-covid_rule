@@ -9,52 +9,37 @@
 
 <url>
   <loc>https://covidguide.netlify.app/</loc>
-  <lastmod>2021-01-02T04:58:57+00:00</lastmod>
+  <lastmod>2021-01-02T07:25:03+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://covidguide.netlify.app/index.html</loc>
-  <lastmod>2021-01-02T04:58:57+00:00</lastmod>
+  <lastmod>2021-01-02T07:25:03+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://covidguide.netlify.app/services.html</loc>
-  <lastmod>2021-01-02T04:58:57+00:00</lastmod>
+  <lastmod>2021-01-02T07:25:03+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://covidguide.netlify.app/about.html</loc>
-  <lastmod>2021-01-02T04:58:57+00:00</lastmod>
+  <lastmod>2021-01-02T07:25:03+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://covidguide.netlify.app/district/sudo</loc>
-  <lastmod>2021-01-02T04:58:57+00:00</lastmod>
+  <loc>https://covidguide.netlify.app/notsudo</loc>
+  <lastmod>2021-01-02T07:25:03+00:00</lastmod>
   <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://covidguide.netlify.app/district/notsudo</loc>
-  <lastmod>2021-01-02T04:58:57+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://covidguide.netlify.app/Sudo.html</loc>
-  <lastmod>2021-01-02T04:58:57+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://covidguide.netlify.app/notSudo.html</loc>
-  <lastmod>2021-01-02T04:58:57+00:00</lastmod>
-  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://covidguide.netlify.app/about_2.html</loc>
-  <lastmod>2021-01-02T04:58:57+00:00</lastmod>
+  <lastmod>2021-01-02T07:25:03+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://covidguide.netlify.app/services_2.html</loc>
-  <lastmod>2021-01-02T04:58:57+00:00</lastmod>
+  <lastmod>2021-01-02T07:25:03+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 
