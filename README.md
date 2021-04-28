@@ -3,5 +3,5 @@
 Guide Application for Corona Prevention Regulations by Region in Korea
 https://covidguide.netlify.app/
 
-Basic template by Colorlib, Designed & Modified by Jeewon Kim
+Basic template by Colorlib, Designed & Modified by Jeewon Kim/
 Optimized for Mobile
