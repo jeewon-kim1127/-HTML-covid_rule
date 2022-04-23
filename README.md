@@ -3,6 +3,7 @@
 Guide Application for Covid-19 Quarantine Rules in KOREA
 https://covidguide.netlify.app/
 
-You can download application [here](https://m.onestore.co.kr/mobilepoc/apps/appsDetail.omp?prodId=0000753508).
+You can download application [here](https://m.onestore.co.kr/mobilepoc/apps/appsDetail.omp?prodId=0000753508).\
+
 Basic template by Colorlib, Designed & Modified by Jeewon Kim/
 Optimized for Mobile
